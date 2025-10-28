@@ -6,11 +6,16 @@ from datetime import datetime, timezone
 ignore_dirs = [
     '.venv', 'venv', '.git', '.github', '__pycache__', 'site-packages',
     'dist', 'build', 'Include', 'Lib', 'Scripts', 'tcl', 'Tools', 'DLLs',
-    'pyvenv.cfg', '.idea', 'share', 'bin', 'include', '.cfg', '.qodo'
+    'pyvenv.cfg', '.idea', 'share', 'bin', 'include', '.cfg', '.qodo', 
 ]
 
 # List of file extensions to ignore
-ignore_file_extensions = ['.md']
+ignore_file_extensions = ['.md', '.gitignore', '.png', '.jpg', '.jpeg', '.gif',
+                          '.svg', '.ico', '.exe', '.dll', '.so', '.dylib',
+                          '.zip', '.tar', '.gz', '.rar', '.7z', '.pdf',
+                          '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx',
+                          '.mp3', '.mp4', '.avi', '.mov', '.wmv', '.flv',
+                          '.mkv', '.class', '.jar', '.pyc', '.pyo','LICENSE']
 
 
 def normalize_path(path):
