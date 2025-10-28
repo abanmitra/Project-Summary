@@ -100,7 +100,12 @@ ignore_dirs = [
 
 ### Ignored File Extensions
 ```python
-ignore_file_extensions = ['.md']
+ignore_file_extensions = ['.md', '.gitignore', '.png', '.jpg', '.jpeg', '.gif',
+                          '.svg', '.ico', '.exe', '.dll', '.so', '.dylib',
+                          '.zip', '.tar', '.gz', '.rar', '.7z', '.pdf',
+                          '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx',
+                          '.mp3', '.mp4', '.avi', '.mov', '.wmv', '.flv',
+                          '.mkv', '.class', '.jar', '.pyc', '.pyo','LICENSE']
 ```
 
 ### Included File Types (for full content)
