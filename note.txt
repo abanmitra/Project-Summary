@@ -1,0 +1,4 @@
+
+Sample Run Command (Windows):
+------------------------------
+python project_summary.py C:\abcd\xyz\project_summary
