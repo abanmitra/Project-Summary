@@ -1,4 +1,5 @@
 note.txt
+LICENSE
 .venv
 __pycache__/
 *.pyc
